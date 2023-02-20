@@ -3,7 +3,7 @@
       <img src="https://placehold.co/150" [ngClass]="{'opacity-50':product.count >0}" alt="">
       <div *ngIf="product.count > 0" class="centered">{{product.count}}</div>
 
-      <span>{{product.name}}</span>
+      <span style="overflow-wrap: anywhere;">{{product.name}}</span>
     </div>
     <div class="action-row">
       <div class="btn" [ngClass]="{'slide-in-from-left':product.count==1&&!minClicked,'slide-in-from-right':product.count==0&&product.isSelected}" (click)="product.isSelected = true;minClicked=false;product.count = product.count+1">+</div>

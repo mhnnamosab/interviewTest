@@ -6,6 +6,7 @@
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 2%;
+  grid-auto-rows: 1fr;
 }
 
 @mixin make-container($padding-x) {

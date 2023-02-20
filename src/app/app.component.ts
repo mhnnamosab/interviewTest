@@ -20,7 +20,11 @@ export class AppComponent implements OnInit {
   getProducts(){
     return this.dataService.get().pipe(
       map(res=>{
-        return this.extractProducts(res)
+        let data =this.extractProducts(res);
+        data = data.sort((a,b)=>{
+          return a.price-b.price;
+        }) 
+        return  data
       })
     )
   }

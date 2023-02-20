@@ -1,7 +1,9 @@
 
 .item {
-    flex-grow: 1;
-    height: 15em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
 }
 .opacity-50{
     opacity: 0.5;
