@@ -1,0 +1,41 @@
+{
+  "name": "Category1",
+  "products": [],
+  "subCategories": [
+    {
+      "name": "Category2",
+      "products": [
+        { "name": "A", "price": 20 },
+        { "name": "B", "price": 10 }
+      ],
+      "subCategories": [
+        {
+          "name": "Category3",
+          "products": [
+            { "name": "C", "price": 1 },
+            { "name": "D", "price": 100 }
+          ],
+          "subCategories": []
+        },
+        {
+          "name": "Category4",
+          "products": [],
+          "subCategories": []
+        },
+        {
+          "name": "Category5",
+          "products": [{ "name": "E", "price": 5 }],
+          "subCategories": []
+        }
+      ]
+    },
+    {
+      "name": "Category6",
+      "products": [
+        { "name": "F", "price": 500 },
+        { "name": "G", "price": 3 }
+      ],
+      "subCategories": []
+    }
+  ]
+}
